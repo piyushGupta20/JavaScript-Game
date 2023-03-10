@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+}
+#canvas1{
+    background: red;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 300px;
+    animation: animate 4ms linear;
+}
+/* #canvas1:hover{
+    background: whitesmoke;
+    border: 2px solid salmon;
+    
+} */
+@keyframes animate{
+    0%{background: whitesmoke;}
+    25%{background: blanchedalmond;}
+    50%{background: gray;}
+    100%{background: black;}
+}
